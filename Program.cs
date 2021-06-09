@@ -101,13 +101,8 @@ namespace Projeto.Bank
             Console.WriteLine("Inserir nova conta");
 
             Console.WriteLine("Digite 1 para pessoa Física ou 2 para Jurídica: ");
-            while(!(Console.ReadLine() == "1" | Console.ReadLine()=="2"))
-            {
-                Console.WriteLine("Valor inválido.");
-                Console.WriteLine("Digite 1 para pessoa Física ou 2 para Jurídica: ");       
-            }
             int entradaTipoConta = int.Parse(Console.ReadLine());
-    
+            
             Console.WriteLine("Digite o nome do cliente: ");
             string entradaNome = Console.ReadLine();
 
