@@ -121,7 +121,6 @@ namespace Projeto.Bank
                                         saldo: entradaSaldo, 
                                         credito: entradaCredito, 
                                         nome: entradaNome);
-
             listContas.Add(novaConta);
             
         }
